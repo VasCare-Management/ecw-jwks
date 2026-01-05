@@ -29,7 +29,7 @@ def main() -> None:
     jwk = {
         "kty": "RSA",
         "use": "sig",
-        "alg": "RS256",
+        "alg": "RS384",
         "kid": "ecw-key-1",
         "n": _b64url_uint(public_numbers.n),
         "e": _b64url_uint(public_numbers.e),
